@@ -299,13 +299,79 @@
     min-height: 500px;
   }
 
+  .header-carousel .owl-carousel-item h1.display-2 {
+    font-size: clamp(1.35rem, 5.5vw, 2rem);
+    line-height: 1.2;
+    margin-bottom: 0.75rem;
+  }
+
   .header-carousel .owl-carousel-item p {
-    font-size: 16px !important;
+    font-size: 0.9rem !important;
+    margin-bottom: 0.75rem !important;
+    padding-bottom: 0 !important;
+  }
+
+  .header-carousel .owl-carousel-inner .btn.rounded-pill {
+    padding: 0.45rem 1rem !important;
+    font-size: 0.8125rem !important;
+    line-height: 1.25;
+    margin: 0 0.35rem 0.45rem 0 !important;
+    width: auto;
+    max-width: 100%;
+    display: inline-block;
+    white-space: normal;
+    text-align: center;
   }
 
   .carousel-split-label {
     font-size: 0.65rem;
     padding: 0.25rem 0.6rem;
+  }
+
+  .btn.rounded-pill.py-3.px-5 {
+    padding: 0.5rem 1.15rem !important;
+    font-size: 0.875rem !important;
+    line-height: 1.3;
+    width: auto;
+    max-width: 100%;
+    display: inline-block;
+    white-space: normal;
+  }
+
+  .btn.rounded-pill.py-3.px-5.me-3 {
+    margin-right: 0.4rem !important;
+    margin-bottom: 0.45rem;
+  }
+}
+
+@media (max-width: 576px) {
+  .header-carousel .owl-carousel-item h1.display-2 {
+    font-size: 1.25rem;
+  }
+
+  .header-carousel .owl-carousel-inner .btn.rounded-pill {
+    padding: 0.4rem 0.85rem !important;
+    font-size: 0.75rem !important;
+  }
+
+  .btn.rounded-pill.py-3.px-5 {
+    padding: 0.45rem 1rem !important;
+    font-size: 0.8125rem !important;
+  }
+
+  .header-carousel .owl-dots {
+    right: 10px;
+    width: 44px;
+  }
+
+  .header-carousel .owl-dots .owl-dot {
+    width: 34px;
+    height: 34px;
+  }
+
+  .header-carousel .owl-dots .owl-dot.active {
+    width: 42px;
+    height: 42px;
   }
 }
 
