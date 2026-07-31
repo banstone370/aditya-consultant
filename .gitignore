@@ -1,5 +1,8 @@
 .continue/
 .vercel/
+scss/
 .DS_Store
 Thumbs.db
 *.log
+
+.vercel
