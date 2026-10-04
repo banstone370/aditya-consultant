@@ -172,12 +172,7 @@
 
 /* 60° / 120° diagonal — shared coords, mirrored on split-120 */
 .carousel-diagonal-split.split-60 .split-solar {
-  clip-path: polygon(
-    0 0,
-    100% 0,
-    var(--split-bottom) 100%,
-    var(--split-top) 0
-  );
+  clip-path: polygon(0 0, 100% 0, var(--split-bottom) 100%, var(--split-top) 0);
 }
 
 .carousel-diagonal-split.split-60 .split-security {
@@ -195,12 +190,7 @@
 }
 
 .carousel-diagonal-split.split-120 .split-solar {
-  clip-path: polygon(
-    0 0,
-    var(--split-top) 0,
-    var(--split-bottom) 100%,
-    0 100%
-  );
+  clip-path: polygon(0 0, var(--split-top) 0, var(--split-bottom) 100%, 0 100%);
 }
 
 .carousel-diagonal-split.split-120 .split-security {

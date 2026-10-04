@@ -5,4 +5,8 @@ scss/
 Thumbs.db
 *.log
 
-.vercel
+# Temp artifacts from company-profile generation
+scripts/.tmp_*.jpg
+scripts/ref_pages/
+scripts/ref_pdf_text.txt
+renewable-energy-website-template.jpg
