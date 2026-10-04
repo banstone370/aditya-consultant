@@ -29,8 +29,8 @@ FULL_NAME = "Aditya Consultant"
 TAGLINE = "Solar Energy & Security Systems"
 WEBSITE = "https://aditya-consultant.vercel.app"
 EMAIL = "manishabhatt8168@gmail.com"
-PHONES = "+91 91672 30510, +91 96199 75399"
-ADDRESS = "Mumbai, Maharashtra, India"
+PHONES = "+91 83568 77637"
+ADDRESS = "Vijay Park Opp BRNC Garden, Mira Road East - 401107"
 HOURS = "Mon - Fri: 09:00 AM - 09:00 PM"
 
 MARGIN = 14
@@ -299,7 +299,7 @@ def build_pdf() -> Path:
         italic=True,
     )
     pdf.body_para(
-        "We are based in Mumbai, Maharashtra, India with PAN India service and installation. Our "
+        "We are based at Vijay Park Opp BRNC Garden, Mira Road East - 401107 with PAN India service and installation. Our "
         "network of engineers and installers across India gives us collective expertise of new "
         "developments in our industry, making Aditya Consultant one of the most reliable solar and "
         "security system designing and EPC firms in India.",
